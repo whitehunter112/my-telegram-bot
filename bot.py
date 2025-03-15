@@ -5,13 +5,17 @@ import logging
 import random
 from dateutil import parser  # Импортируем модуль для распознавания дат
 
-# Включаем логирование
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
+# Настройка логирования в файл
+logging.basicConfig(
+    filename='bot.log',  # Имя файла для логов
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',  # Формат логов
+    level=logging.INFO  # Уровень логирования (INFO и выше)
+)
 logger = logging.getLogger(__name__)
 
 # Список мотивирующих сообщений
 MOTIVATIONAL_MESSAGES = [
-     "Ты становишься только лучше!",
+    "Ты становишься только лучше!",
     "У тебя всё выйдет!",
     "Будь тем, кем хочется тебе!",
     "Не забывай, ради чего ты живешь!",
@@ -32,6 +36,8 @@ def calculate_time_since_birth(birth_date):
 
 # Команда /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    user = update.message.from_user
+    logger.info(f"Пользователь {user.first_name} (id: {user.id}) начал взаимодействие с ботом.")
     await update.message.reply_text('Привет! Введите вашу дату рождения (например, 01.01.2000, 01/01/2000 или 01-01-2000):')
 
 # Обработка введенной даты рождения
