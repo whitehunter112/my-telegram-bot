@@ -15,8 +15,8 @@ MOTIVATIONAL_MESSAGES = [
     "У тебя всё выйдет!",
     "Будь тем, кем хочется тебе!",
     "Не забывай, ради чего ты живешь!",
-    "Сегодня будт лучше чем вчера!",
-    "Делай, что можешь, с те, что ты имеешь, там, где ты есть!"
+    "Сегодня будет лучше, чем вчера!",
+    "Делай, что можешь, с тем, что ты имеешь, там, где ты есть!"
 ]
 
 # Функция для расчета времени
@@ -56,7 +56,7 @@ async def notify_weekly(context: ContextTypes.DEFAULT_TYPE) -> None:
     birth_date = context.user_data.get('birth_date')
     if birth_date:
         weeks = calculate_time_since_birth(birth_date)[0]  # Считаем только недели
-        await context.bot.send_message(context.job.chat_id, text=f'Прошла ещё одна неделя! Теперь вы прожили {weeks} недель.')
+        await context.bot.send_message(context.job.chat_id, text=f'Прошла ещё одна неделя! Всё будет только лучше! Теперь вы прожили {weeks} недель.')
 
 # Обработка любого другого сообщения
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
