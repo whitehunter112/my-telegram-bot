@@ -89,6 +89,6 @@ def run():
     Thread(target=run_bot).start()
 
 if __name__ == "__main__":
-    run()
+    run_bot()
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
