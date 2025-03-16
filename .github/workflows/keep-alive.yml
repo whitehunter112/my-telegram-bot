@@ -1,0 +1,14 @@
+name: Keep Render Alive  # Название workflow
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # Запускать каждые 10 минут
+  workflow_dispatch:  # Позволяет запускать workflow вручную
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest  # Используем последнюю версию Ubuntu
+    steps:
+      - name: Ping Render  # Название шага
+        run: |
+          curl -X GET https://my-telegram-bot-l7vk.onrender.com
