@@ -1,0 +1,87 @@
+2025-03-16 15:11:13,834 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-03-16 15:11:13,835 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 15:11:29,823 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 15:11:29] "GET / HTTP/1.1" 200 -
+2025-03-16 15:11:30,218 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 15:11:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-16 15:12:29,079 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 15:12:29] "GET / HTTP/1.1" 200 -
+2025-03-16 15:12:29,996 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 15:12:29] "GET / HTTP/1.1" 200 -
+2025-03-16 15:17:22,809 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-03-16 15:17:22,810 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 15:17:28,222 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 15:17:28] "GET / HTTP/1.1" 200 -
+2025-03-16 15:21:16,167 - __main__ - INFO - Запуск бота...
+2025-03-16 15:21:16,168 - __main__ - ERROR - Токен бота не найден! Убедитесь, что переменная BOT_TOKEN установлена.
+2025-03-16 15:21:16,189 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-03-16 15:21:16,189 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 15:21:33,536 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 15:21:33] "GET / HTTP/1.1" 200 -
+2025-03-16 15:28:30,452 - __main__ - INFO - Запуск бота...
+2025-03-16 15:28:30,452 - __main__ - ERROR - Токен бота не найден! Убедитесь, что переменная BOT_TOKEN установлена.
+2025-03-16 15:28:30,473 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-03-16 15:28:30,473 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 15:30:02,228 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+2025-03-16 15:30:02,228 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-16 15:30:08,086 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 15:30:08] "GET / HTTP/1.1" 200 -
+2025-03-16 15:30:08,859 - werkzeug - INFO - 127.0.0.1 - - [16/Mar/2025 15:30:08] "GET / HTTP/1.1" 200 -
+2025-03-16 15:34:05,921 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/getMe "HTTP/1.1 200 OK"
+2025-03-16 15:34:05,962 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/deleteWebhook "HTTP/1.1 200 OK"
+2025-03-16 15:34:05,964 - apscheduler.scheduler - INFO - Scheduler started
+2025-03-16 15:34:05,964 - telegram.ext.Application - INFO - Application started
+2025-03-16 15:34:06,083 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/getUpdates "HTTP/1.1 200 OK"
+2025-03-16 15:34:06,206 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:06,207 - __main__ - INFO - Пользователь  Олександр (id: 792952595) начал взаимодействие с ботом.
+2025-03-16 15:34:06,283 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:06,284 - __main__ - INFO - Пользователь  Олександр (id: 792952595) начал взаимодействие с ботом.
+2025-03-16 15:34:06,355 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:06,356 - __main__ - INFO - Пользователь  Олександр (id: 792952595) начал взаимодействие с ботом.
+2025-03-16 15:34:06,448 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:06,450 - __main__ - INFO - Пользователь  Олександр (id: 792952595) начал взаимодействие с ботом.
+2025-03-16 15:34:06,517 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:06,518 - __main__ - INFO - Пользователь  Олександр (id: 792952595) начал взаимодействие с ботом.
+2025-03-16 15:34:06,584 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:06,586 - __main__ - INFO - Пользователь  Олександр (id: 792952595) начал взаимодействие с ботом.
+2025-03-16 15:34:06,659 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:06,660 - __main__ - INFO - Пользователь  Олександр (id: 792952595) начал взаимодействие с ботом.
+2025-03-16 15:34:06,739 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:06,810 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:06,880 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:06,954 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:07,018 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:07,084 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:07,157 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:07,157 - __main__ - INFO - Пользователь  Олександр (id: 792952595) начал взаимодействие с ботом.
+2025-03-16 15:34:07,229 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:07,230 - __main__ - INFO - Пользователь  Олександр (id: 792952595) начал взаимодействие с ботом.
+2025-03-16 15:34:07,305 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:07,306 - __main__ - INFO - Пользователь  Олександр (id: 792952595) начал взаимодействие с ботом.
+2025-03-16 15:34:07,376 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:07,377 - __main__ - INFO - Пользователь  Олександр (id: 792952595) начал взаимодействие с ботом.
+2025-03-16 15:34:07,450 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:07,451 - __main__ - INFO - Пользователь  Олександр (id: 792952595) начал взаимодействие с ботом.
+2025-03-16 15:34:07,558 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/sendMessage "HTTP/1.1 200 OK"
+2025-03-16 15:34:16,130 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/getUpdates "HTTP/1.1 200 OK"
+2025-03-16 15:34:26,171 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/getUpdates "HTTP/1.1 200 OK"
+2025-03-16 15:34:36,218 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/getUpdates "HTTP/1.1 200 OK"
+2025-03-16 15:34:46,264 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/getUpdates "HTTP/1.1 200 OK"
+2025-03-16 15:34:56,304 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/getUpdates "HTTP/1.1 200 OK"
+2025-03-16 15:35:06,345 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/getUpdates "HTTP/1.1 200 OK"
+2025-03-16 15:35:16,393 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/getUpdates "HTTP/1.1 200 OK"
+2025-03-16 15:35:26,434 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/getUpdates "HTTP/1.1 200 OK"
+2025-03-16 15:35:36,474 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/getUpdates "HTTP/1.1 200 OK"
+2025-03-16 15:35:46,514 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/getUpdates "HTTP/1.1 200 OK"
+2025-03-16 15:35:56,555 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/getUpdates "HTTP/1.1 200 OK"
+2025-03-16 15:36:06,594 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/getUpdates "HTTP/1.1 200 OK"
+2025-03-16 15:36:16,639 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/getUpdates "HTTP/1.1 200 OK"
+2025-03-16 15:36:26,679 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8156357645:AAFF7YFPkw3d7-OI37y-Jg936JeYqq3G1A0/getUpdates "HTTP/1.1 200 OK"
