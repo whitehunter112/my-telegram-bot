@@ -195,7 +195,7 @@ async def check_week_button(update: Update, context: ContextTypes.DEFAULT_TYPE) 
     now = datetime.now()
     weeks = (now - birth_date).days // 7
 
-    await update.message.reply_text(f"Вы прожили **{weeks}** недель!")
+    await update.message.reply_text(f"Вы прожили {weeks} недель! Эта неделя будет ещё лучше!")
 
 # Обработчик кнопки "Рассылка текста"
 async def broadcast_text_button(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
